@@ -1,0 +1,15 @@
+/* Enlève tous les marges et padding par défaut */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* S'assure que le body occupe toute la fenêtre */
+html, body {
+    height: 100%;
+    overflow: hidden; /* Empêche l'apparition de scrollbars */
+}
+
+canvas {
+    display: block; /* Supprime l'espacement blanc par défaut autour du canvas */
+}
